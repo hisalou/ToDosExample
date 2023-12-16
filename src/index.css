@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*:focus {
+  outline: none;
+}
+
+@layer base {
+  body {
+    @apply text-gray-300 bg-black;
+  }
+
+  input {
+    @apply px-2 py-1 text-gray-900 rounded-md;
+  }
+
+  button {
+    @apply px-2 py-1 font-semibold rounded-md cursor-pointer text-gray-50 bg-cyan-800;
+  }
+
+  select {
+    @apply px-2 py-1 text-gray-900 rounded-md;
+  }
+}
